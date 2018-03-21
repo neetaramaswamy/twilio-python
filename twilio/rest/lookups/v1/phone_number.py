@@ -184,7 +184,9 @@ class PhoneNumberInstance(InstanceResource):
             'phone_number': payload['phone_number'],
             'national_format': payload['national_format'],
             'carrier': payload['carrier'],
-            'fraud': payload['fraud'],
+          """
+          'fraud': payload['fraud'],
+          """
             'add_ons': payload['add_ons'],
             'url': payload['url'],
         }
